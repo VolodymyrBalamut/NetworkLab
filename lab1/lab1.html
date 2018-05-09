@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="lab1.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">Лабораторна робота 1</h1>
+          </div>
+        </div>
+      <!--data section-->
+      <section id="data">
+        <div class="row">
+          <div class="col-md-5 input">
+            <h2 class="text-center">Вхідні дані</h2>
+              <div class="row">     
+                <div class="col-md-4">
+                  <div class="input-box">
+                    <div class="form-group">
+                      <label for="length">L:</label>
+                      <input type="number" class="form-control" value="84" id="length">
+                    </div>
+                    <div class="form-group">
+                      <label for="number_station">N:</label>
+                      <input type="number" class="form-control" value="4" id="number_station" disabled>
+                    </div> 
+                  </div>
+              </div> 
+              <div class="col-md-4">
+                <div class="input-box">
+                    <div class="form-group">
+                      <label for="a1">a1:</label>
+                      <input type="number" class="form-control" value="1.70" id="a1">
+                    </div>
+                    <div class="form-group">
+                      <label for="a2">a2:</label>
+                      <input type="number" class="form-control" value="1.75" id="a2">
+                    </div> 
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="input-box">
+                    <div class="form-group">
+                      <label for="a3">a3:</label>
+                      <input type="number" class="form-control" value="1.55" id="a3">
+                    </div>
+                    <div class="form-group">
+                      <label for="a4">a4:</label>
+                      <input type="number" class="form-control" value="1.52" id="a4">
+                    </div> 
+                  </div>
+              </div>
+            </div>
+            </div>
+          <div class="col-md-2"></div>
+          <div id="results" class="col-md-5 input">
+            <h2 class="text-center">Результати</h2>
+            <div class="row">
+            <div class="col-md-6">
+             <div class="input-box">
+              <div class="form-group">
+                <label for="A1">A1:</label>
+                <input type="text" class="form-control"  id="A1" disabled>
+              </div>
+              <div class="form-group">
+                <label for="A2">A2:</label>
+                <input type="text" class="form-control"  id="A2" disabled>
+              </div> 
+             </div>
+           </div>
+           <div class="col-md-6">
+             <div class="input-box">
+                <div class="form-group">
+                  <label for="A3">A3:</label>
+                  <input type="text" class="form-control"  id="A3" disabled>
+                </div>
+                <div class="form-group">
+                  <label for="A4">A4:</label>
+                  <input type="text" class="form-control"  id="A4" disabled>
+                </div> 
+             </div>
+           </div>
+           </div>
+          </div>
+        </div>
+        </section>   
+          <!--end of data section-->
+
+        <div id="diagram" class="row">
+          <div class="col-md-12">
+            <div class="box">
+              <div id="input1"   class="rectangle whitesmoke">ОС<sub>А</sub></div>
+              <div id="wire1"    class="wire">
+                <div id="length1" class="length"></div>
+              </div>
+              <div id="station1" class="rectangle whitesmoke">ПС<sub>1</sub></div>
+              <div id="wire2"    class="wire">
+                <div id="length2" class="length"></div>
+              </div>
+              <div id="station2" class="rectangle whitesmoke">ПС<sub>2</sub></div>
+              <div id="wire3"    class="wire">
+                <div id="length3" class="length"></div>
+              </div>
+              <div id="station3" class="rectangle whitesmoke">ПС<sub>3</sub></div>
+              <div id="wire4"    class="wire">
+                <div id="length4" class="length"></div>
+              </div>
+              <div id="output1"  class="rectangle whitesmoke">ОС<sub>Б</sub></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="footer">
+      <h3 id="L"></h3>
+    </div>
+    
+
+
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="lab1.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="lab2.css">
+  </head>
+  <body>
+    <div class="container">
+      <div id="app">
+      <!--data section-->
+      <section id="data">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-8 input">
+                  <div class="input-box">
+                    <div class="form-group">
+                      <label for="number">N:</label>
+                      <input type="number" class="form-control" value="60" id="N" max="100">
+                    </div>
+                  </div>
+              </div> 
+        </div>
+      </section>   
+      <!--end of data section-->
+
+      <!--schema section-->
+      <section id="schema">
+            <canvas id="draw" width="600" height="800">
+              <p>This is fallback content 
+  for users of assistive technologies 
+  or of browsers that don't have 
+  full support for the Canvas API.</p>
+            </canvas>
+      </section>
+      <!--end of schema section-->
+        
+    </div>
+</div>
+
+
+  
+
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/jcanvas.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="lab2.js"></script>
+  <script>
+    /*var canvas = document.getElementById("draw");
+    var ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#00BFFF";
+    ctx.lineWidth="6";
+    ctx.strokeStyle="red";
+    let step = 0;
+    for(let i = 0; i < 5; i++){
+      ctx.fillRect(0,step,20,20);
+      step +=25;
+    }
+    ctx.fillRect(30,0,30,120);
+    ctx.moveTo(20,10);
+    ctx.lineTo(30,10);
+    ctx.stroke();*/
+
+    
+  </script>
+
+  </body>
+</html>

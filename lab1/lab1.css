@@ -1,0 +1,76 @@
+/*section input data*/
+#data {
+	margin-top: 20px;
+	margin-bottom: 80px;
+	padding-left: 10px; 
+}
+.input {
+	background-color: whitesmoke;
+}
+.input-box {
+	margin-bottom: 50px;
+}
+h1, h2 {
+	margin-top:5px;
+}
+/*
+.form-group {
+	width:200px !important;
+}*/
+
+.box {
+	display: flex;
+}
+
+.rectangle {
+	width:100px;
+	height:100px;
+	border:1px solid #000;
+	padding-left:20px; 
+	padding-top: 35px;
+}
+
+.circle {
+	  width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      background: red;
+      margin-top:25px;
+}
+
+.green {
+	background-color: green;
+	/*margin-right: 100px;*/
+}
+.yellow {
+	background-color: yellow;
+	/*margin-right: 100px;*/
+}
+.blue {
+	background-color: blue;
+}
+.red {
+	background-color: red;
+}
+.whitesmoke {
+	background-color: whitesmoke;
+}
+
+.wire {
+	background-color: grey;
+	width:150px;
+	height:4px;
+	margin-top:48px;
+	position:relative;
+}
+
+.length {
+	position: absolute;
+	top:-20px;
+	left:50px;
+}
+
+#footer {
+	padding-left: 620px;
+	padding-top: 20px;
+}
